@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Inter_18pt-Regular";
 }
+/**********************body**********************/
 body{
     background-color: var(--color-5);
 }
@@ -27,6 +28,7 @@ header p{
     font-size: 20px;
     color: var(--color-4);
 }
+/**********************section**********************/
 .section_imagenes {
     overflow: hidden;
     height: 279px;
