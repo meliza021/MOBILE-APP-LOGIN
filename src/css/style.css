@@ -1,0 +1,93 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter_18pt-Regular";
+}
+body{
+    background-color: var(--color-5);
+}
+header{
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-top: 5px;
+}
+header h1{
+    
+    width: 264px;
+    font-family: "Inter_28pt-Regular";
+    font-size: 40px;
+    color: var(--color-1);
+}
+header p{
+    width: 342px;
+    margin-top: 9px;
+    font-family: "inter_18pt-Bold";
+    font-size: 20px;
+    color: var(--color-4);
+}
+.section_imagenes {
+    overflow: hidden;
+    height: 279px;
+    position: relative;
+    margin-top: 25px;
+}
+.section_imagenes img:first-child {
+    position: absolute;
+    left: -50%;
+}
+
+.section_imagenes img:last-child {
+    position: absolute;
+    right: -50%;
+    bottom: 0;
+}
+.section_form{
+    margin: 27px ;
+    position: relative;
+}
+.section_form > a{
+    position: relative;
+    inset: 0;
+    margin:auto;
+    display: block;
+    background-color: var(--color-3);
+    width: 284px;
+    height: 59px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 17px;
+    font-family:"Inter_18pt-Bold";
+    font-size: 20px;
+    color: var(--color-1);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.section_form p,
+.section_form p a{
+    text-decoration: none;
+    color: var(--color-1);
+    text-align: center;
+    margin-top: 8px;
+    text-align: center;
+    font-family:"Inter_18pt-Bold";
+    font-size: 15px;
+}
+.section_form p a{
+    color: var(--color-3);
+}
+footer {
+    position: absolute;
+    overflow: hidden;
+    width: 4500%;
+    height: 220px;
+    margin-top: 25px;
+
+}
+footer img{
+    background: transparent;
+    position: relative;
+    width: 450px;
+    height: 400px;
+}
