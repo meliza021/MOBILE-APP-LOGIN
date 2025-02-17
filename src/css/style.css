@@ -77,6 +77,8 @@ header p{
 .section_form p a{
     color: var(--color-3);
 }
+
+/***************footer***********************************/
 footer {
     position: absolute;
     overflow: hidden;
@@ -91,3 +93,4 @@ footer img{
     width: 450px;
     height: 400px;
 }
+/**********************************************************/
